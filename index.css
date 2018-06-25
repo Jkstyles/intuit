@@ -1,0 +1,50 @@
+head {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(236, 238, 241);
+}
+
+.intuit {
+    display: inline-block;
+}
+
+.buttons {
+    display: inline-block;
+}
+
+.navi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigbox{
+    text-align: center;
+    display:block;
+    width: 350px;
+    border: 2px soliD #E3E3E3;
+    padding: 5px;
+    margin: 5px;
+    background-color: #FFF;
+}
+
+/* .bigbox.navi{
+    display:block;
+    width: 300px;
+    border: 2px solid;
+    padding: 25px;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+} */
+
+footer {
+    font-size: 10pt;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: Center;
+    padding: 0;
+    width: 80%;
+}
