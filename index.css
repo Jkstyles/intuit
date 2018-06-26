@@ -36,18 +36,25 @@ body {
 .user {
     width: 95%;
     height: 2.5em;
-    border-color: solid rgb(199, 199, 199);
-    border-radius: .5ch;
-    box-flex: center;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    margin: 0 auto;
 }
 .signin {
     display: block;
     width: initial;
     flex-direction: row;
     align-items: center;
-    height: 1.5em;
-    width: 5em;
-
+    margin: 10px auto 0;
+    width: 98%;
+    height: 2em;
+    border-radius: .5ch; 
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    background-color: #08c;
+    color: #FFF;
+    font-style: condensed;
 }
 .boxtxt{
     padding-bottom:6px;
@@ -56,6 +63,7 @@ body {
     color: #404040; 
     font-size:14px; 
     line-height:25px;
+    margin: 0 auto;
 }
 .remember{
     font-size: 14px;
@@ -63,14 +71,14 @@ body {
     width: 318px;
     height:21px;
 }
-#btn {
-    line-height:21px;
+.btn {
+    -webkit-appearance: none;
+    line-height: absolute;
     margin:0;
-    height: 21px;
-    width: 17px;
-    border-style: solid;
-    border: slategray
-    
+    height: 19px;
+    width: 19px;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
 }
 .boxfoot {
     display: block; 
