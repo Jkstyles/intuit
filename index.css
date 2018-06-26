@@ -21,6 +21,7 @@ body {
     align-items: center;
 }
 .bigbox{
+    height:688px;
     text-align: center;
     display:block;
     width: 350px;
@@ -30,15 +31,10 @@ body {
     background-color: #FFF;
 }
 
-/* .bigbox.navi{
-    display:block;
-    width: 300px;
-    border: 2px solid;
-    padding: 25px;
-    margin: 25px;
-    justify-content: center;
-    align-items: center;
-} */
+.textbox{
+    height:30px; 
+    width:320px;
+}
 
 footer {
     font-size: 10pt;
