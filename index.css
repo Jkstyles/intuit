@@ -49,7 +49,14 @@ body {
     width: 5em;
 
 }
-
+.boxtxt{
+    padding-bottom:6px;
+    padding-top: 10px;
+    font-weight:400; 
+    color: #404040; 
+    font-size:14px; 
+    line-height:25px;
+}
 .btn {
     height: 3em;
     width: 3em;
